@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "164520651880",
+    "firebase_url": "https://muscle-generator.firebaseio.com",
+    "project_id": "muscle-generator",
+    "storage_bucket": "muscle-generator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164520651880:android:d84fba83062159ec",
+        "android_client_info": {
+          "package_name": "com.deniz.musclegenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164520651880-b1a3fpjdmd2r88920r01vplpge1c97be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deniz.musclegenerator",
+            "certificate_hash": "6eb0c3d6eda7c75b02873fae22017a7d6a01e31a"
+          }
+        },
+        {
+          "client_id": "164520651880-1bblabl40g6fmq1bvr9ne606tukr69ge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deniz.musclegenerator",
+            "certificate_hash": "a818bab5b89330eb8709f8efe3f732956668276a"
+          }
+        },
+        {
+          "client_id": "164520651880-g5ak3bo3q529dm7kc8t1irngbm0rsg1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA41r148523bZ7LpIOmm4QWo2eI0EVLUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164520651880-g5ak3bo3q529dm7kc8t1irngbm0rsg1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164520651880:android:865d6da30dcf8972",
+        "android_client_info": {
+          "package_name": "com.home.banana.musclegenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164520651880-t7b7bbhhl1gtp005gcq1p1jru37e5qhe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.home.banana.musclegenerator",
+            "certificate_hash": "a818bab5b89330eb8709f8efe3f732956668276a"
+          }
+        },
+        {
+          "client_id": "164520651880-g5ak3bo3q529dm7kc8t1irngbm0rsg1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA41r148523bZ7LpIOmm4QWo2eI0EVLUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164520651880-g5ak3bo3q529dm7kc8t1irngbm0rsg1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164520651880:android:6dea9add781ad354",
+        "android_client_info": {
+          "package_name": "com.musclegenerator.musclegenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164520651880-1lgfl0k1g3u0fi230hbojigi0ao532jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musclegenerator.musclegenerator",
+            "certificate_hash": "6eb0c3d6eda7c75b02873fae22017a7d6a01e31a"
+          }
+        },
+        {
+          "client_id": "164520651880-4ur6kp9osclbbsc2g16gsi83nb56ocoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musclegenerator.musclegenerator",
+            "certificate_hash": "a818bab5b89330eb8709f8efe3f732956668276a"
+          }
+        },
+        {
+          "client_id": "164520651880-g5ak3bo3q529dm7kc8t1irngbm0rsg1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA41r148523bZ7LpIOmm4QWo2eI0EVLUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164520651880-g5ak3bo3q529dm7kc8t1irngbm0rsg1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.musclegenerator.musclegenerator.GeneralInboxFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tlUserProfileTabs"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/colorAccent"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="#5be5ad"
+                app:tabIndicatorHeight="4dp">
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/inbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inbox" />
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/Requests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Requests" />
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/addfriendbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Friend" />
+
+            </android.support.design.widget.TabLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="48dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

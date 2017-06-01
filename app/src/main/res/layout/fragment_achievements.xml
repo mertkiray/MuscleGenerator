@@ -1,0 +1,1023 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.musclegenerator.musclegenerator.AchievementsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach1bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Crunch"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach1bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach1silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Crunch"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach1silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach1goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Crunch"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach1goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach2bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hammer Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach2bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach2silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hammer Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach2silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach2goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hammer Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach2goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach3bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pull Up"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach3bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach3silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pull Up"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach3silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach3goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pull Up"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach3goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach4bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chest Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach4bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach4silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chest Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach4silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach4goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chest Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach4goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach5bronze"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incline Fly"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach5bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach5silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incline Fly"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach5silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach5goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incline Fly"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach5goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach6bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leg Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach6bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach6silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leg Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach6silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomlete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach6goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leg Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach6goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach7bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shoulder Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach7bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach7silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shoulder Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach7silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach7goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shoulder Press"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach7goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach8bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Face Pull"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach8bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach8silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Face Pull"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach8silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach8goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Face Pull"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach8goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donebronze" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach9bronzename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jog"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach9bronzestatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donesilver" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach9silvername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jog"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach9silverstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="2dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/donegold" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach9goldname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jog"
+                    android:textAlignment="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+
+                <TextView
+                    android:id="@+id/ach9goldstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incomplete"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

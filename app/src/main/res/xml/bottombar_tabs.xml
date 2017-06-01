@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_home"
+        title="Home"
+        barColorWhenSelected="#40b9b3" />
+    <tab
+        id="@+id/workout"
+        icon="@drawable/ic_directions_run"
+        barColorWhenSelected="#d8df83"
+        title="Workouts" />
+    <tab
+        id="@+id/calendar"
+        icon="@drawable/ic_perm_contact_calendar"
+        barColorWhenSelected="#f5a69a"
+        title="Calendar" />
+    <tab
+        id="@+id/profile"
+        icon="@drawable/ic_person"
+        barColorWhenSelected="#f87356"
+        title="Profile" />
+    <tab
+        id="@+id/inbox"
+        icon="@drawable/ic_inbox"
+        barColorWhenSelected="#e26da0"
+        title="Inbox" />
+</tabs>

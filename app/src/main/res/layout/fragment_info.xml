@@ -1,0 +1,175 @@
+<RelativeLayout
+    android:id="@+id/FrmLyt"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="com.musclegenerator.musclegenerator.InfoFragment"
+    android:layout_height="wrap_content">
+
+    <ViewFlipper
+        android:id="@+id/simpleViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/titleheight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Enter your height."
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:typeface="sans" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/inputheight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="height (cm)"
+                    android:textStyle="normal"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"
+                    android:typeface="sans" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/okButtonheight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/titleweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Enter your weight."
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/inputweight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="weight (kg)"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="numberDecimal"
+                    android:typeface="sans" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/okButtonweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/contgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/titlegender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="What is your Gender?"
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/maleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/ic_male"
+                    />
+                <ImageView
+                    android:id="@+id/femaleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/ic_female"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ViewFlipper>
+
+
+</RelativeLayout>

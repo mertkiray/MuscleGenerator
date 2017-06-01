@@ -1,0 +1,220 @@
+<RelativeLayout
+    android:id="@+id/FrmLyt"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="com.musclegenerator.musclegenerator.WorkoutPreferencesFragment"
+    android:layout_height="wrap_content">
+
+
+
+
+    <ViewFlipper
+        android:id="@+id/simpleViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/createWorkout"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Create a New Workout" />
+
+                <Button
+                    android:id="@+id/selectWorkout"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choose From Existing Workouts" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/titleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Enter the type of your workout."
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/cardioButton"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="fill_parent"
+                    android:text="Cardio"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/fatBurnButton"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="fill_parent"
+                    android:text="Fat Burn"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/muscleButton"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="fill_parent"
+                    android:text="Muscle"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/titleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Enter your workouts name."
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/inputName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Name"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="text"
+                    android:typeface="sans" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/okButtonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/titleDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Your workout length as days."
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/inputDay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Days"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"
+                    android:typeface="sans" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/okButtonDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ViewFlipper>
+
+
+</RelativeLayout>
